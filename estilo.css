@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+*{
+
+margin: 0;
+padding: 0;
+text-decoration: none;
+
+}
+
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+background-color: antiquewhite;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.conteudo{
+
+
+margin-top: 20px;
+
+
+
+}
+
+.fieldset{
+
+ border: 0;
+ font-size:20px
+
+}
+
+.div {
+
+padding: 10px;
+
+
+
+}
+
+#turno{
+    border-radius: 6px;
+    border: white;
+}
+
+
+
+.txta{
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+#txtarea{
+
+    border-radius: 6px;
+    border: white;
+    
+}
+
+
+.input{
+
+
+    border-radius: 6px;
+    border: white;
+    font-size: 20px;
+   
+
+
+
+}
+
+#horas{
+    border-radius: 6px;
+    border: white;
+    font-size: 20px;
+   
+
+}
+
+
+#vhora{
+    border-radius: 6px;
+    border: white;
+    font-size: 20px;
+   
+
+}
+
+#nome{
+
+    border-radius: 6px;
+    border: white;
+    font-size: 20px;
+   
+
+}
+
+.labels{
+    font-size: 20px;
+}
+
+
+
+
+    #button {
+        background: linear-gradient(45deg, white);
+        background-size: 300% 300%;
+        animation: cores 15s ease infinite;
+       /* background-color: white;*/
+        color: black;
+        border: 2px solid black; /* Green */
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        width: 100px;
+        height: 29px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 2px black;
+        font-family: 'Sarala', sans-serif;
+        font-weight: 300;
+        font-size: 12px;
+        
+    }
+    
+    
+    #button:hover {
+        background: grey; /* Green */
+        color: black;
+    }
+
+    #btn{
+        display: flex;
+    justify-content: center;
+    padding: 18px;
+    }
+
+
+
+
